@@ -1,0 +1,28 @@
+
+    label, input{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+    /* Estilização das divs que contêm os checkboxes */l
+    div {
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    /* Estilização quando o mouse passa por cima do rótulo (label) */
+    label:hover {
+        background-color: lightgray;
+    }
+
+    /* Estilização quando o mouse passa por cima do checkbox */
+    input[type="checkbox"]:hover + label {
+        background-color: lightgray;
+    }
+
+    /* Estilização quando o checkbox está marcado */
+    input[type="checkbox"]:checked + label {
+        background-color: lightblue;
+    }
+
